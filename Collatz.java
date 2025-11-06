@@ -10,7 +10,7 @@ public class Collatz {
 
 		for (int seed = 1; seed <= maximum_seed; seed++) {
             int current = seed;
-            int steps = 0;
+            int steps = 1;
 
             if (verbose) {
                 // print starting seed
