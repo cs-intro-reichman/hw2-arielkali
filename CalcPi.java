@@ -20,10 +20,10 @@ public class CalcPi {
         }
         
 		// multiply by 4
-        double piApprox = 4 * sum;
+        double piapprox = 4 * sum;
         
         //print the outcome
         System.out.println("pi according to Java: " + Math.PI);
-        System.out.println("pi, approximated: " + piApprox);
+        System.out.println("pi, approximated:	 " + piapprox);
 	}
 }

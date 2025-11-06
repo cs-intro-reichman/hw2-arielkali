@@ -19,15 +19,15 @@ public class Collatz {
             
             // create hailstone sequence for this seed
             while (current != 1) {
-                // calculate next value
+                
+				if (verbose) {
+                    System.out.print(current + " ");
+                }
+				// calculate next value
                 if (current % 2 == 0) {
                     current = current / 2;
                 } else {
                     current = 3 * current + 1;
-                }
-                
-                if (verbose) {
-                    System.out.print(current + " ");
                 }
                 steps++;
             }
