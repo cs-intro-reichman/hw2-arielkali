@@ -18,13 +18,13 @@ public class TimeCalc {
         	// prints data acording to minutes lower or higher then ten
 		if (new_minutes < 10) {
             if (new_hour < 10) {
-            System.out.println( new_hour + "0:0" + new_minutes + " ");
+            System.out.println( "0" + new_hour + ":0" + new_minutes + " ");
             } else {
 			System.out.println( new_hour + ":0" + new_minutes + " ");
             }
 		} else {	
 if (new_hour < 10) {
-            System.out.println( new_hour + "0:" + new_minutes + " ");
+            System.out.println( "0" + new_hour + ":" + new_minutes + " ");
             } else {
 			System.out.println( new_hour + ":" + new_minutes + " ");
             }		}

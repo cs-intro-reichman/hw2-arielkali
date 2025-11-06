@@ -13,13 +13,17 @@ public class Collatz {
             int steps = 0;
 
             if (verbose) {
-                // Print starting seed
+                // print starting seed
                 System.out.print(current + " ");
             }
             
+			boolean is_first = true;
+
             // create hailstone sequence for this seed
-            while (current != 1) {
+            while (current != 1 || is_first == true) {
                 
+				is_first = false;
+
 				if (verbose) {
                     System.out.print(current + " ");
                 }

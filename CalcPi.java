@@ -24,6 +24,6 @@ public class CalcPi {
         
         //print the outcome
         System.out.println("pi according to Java: " + Math.PI);
-        System.out.println("pi, approximated:	 " + piapprox);
+        System.out.println("pi, approximated:     " + piapprox);
 	}
 }
