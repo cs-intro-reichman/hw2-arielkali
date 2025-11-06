@@ -24,9 +24,7 @@ public class Collatz {
                 
 				is_first = false;
 
-				if (verbose) {
-                    System.out.print(current + " ");
-                }
+
 				// calculate next value
                 if (current % 2 == 0) {
                     current = current / 2;
@@ -34,6 +32,10 @@ public class Collatz {
                     current = 3 * current + 1;
                 }
                 steps++;
+				
+				if (verbose) {
+                    System.out.print(current + " ");
+                }
             }
             
             if (verbose) {
